@@ -3,7 +3,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background-image: url(./images/concrete_seamless.png);
+    background-image: url(../images/concrete_seamless.png);
     line-height: 180%;
 }
 
@@ -37,7 +37,7 @@ p {
     background: #ffffff;
     box-sizing: border-box; 
     margin-bottom: 30px;
-    border: 2px solid #dddddd;
+    border-bottom: 2px solid #dddddd;
 }
 
 .container {
@@ -85,7 +85,7 @@ p {
     linear-gradient(
     rgba(255, 255, 255, 0.1),
     rgba(255, 255, 255, 0.1)
-    ),url(./images/technics-q-c-640-480-1.jpg);
+    ),url(../images/technics-q-c-640-480-1.jpg);
     background-size: cover;
     
 
@@ -96,7 +96,7 @@ p {
     linear-gradient(
     rgba(255, 255, 255, 0.1),
     rgba(255, 255, 255, 0.1)
-    ), url(./images/technics-q-c-640-480-2.jpg);
+    ), url(../images/technics-q-c-640-480-2.jpg);
     background-size: cover;
     
 }
@@ -106,7 +106,7 @@ p {
     linear-gradient(
     rgba(255, 255, 255, 0.1),
     rgba(255, 255, 255, 0.1)
-    ), url(./images/technics-q-c-640-480-5.jpg);
+    ), url(../images/technics-q-c-640-480-5.jpg);
     background-size: cover; 
 
 }
@@ -116,7 +116,7 @@ p {
     linear-gradient(
     rgba(255, 255, 255, 0.1),
     rgba(255, 255, 255, 0.1)
-    ), url(./images/technics-q-c-640-480-7.jpg);
+    ), url(../images/technics-q-c-640-480-7.jpg);
     background-size: cover;
 
 }
@@ -126,7 +126,7 @@ p {
     linear-gradient(
     rgba(255, 255, 255, 0.1),
     rgba(255, 255, 255, 0.1)
-    ), url(./images/technics-q-c-640-480-9.jpg);
+    ), url(../images/technics-q-c-640-480-9.jpg);
     background-size: cover;
 
 }

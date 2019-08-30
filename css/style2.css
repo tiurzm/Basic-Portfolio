@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background-image: url(./images/concrete_seamless.png);
+    background-image: url(../images/concrete_seamless.png);
     line-height: 180%;
 }
 
@@ -43,7 +43,7 @@ button {
     background: #ffffff;
     box-sizing: border-box; 
     margin-bottom: 30px;
-    border: 2px solid  #dddddd;
+    border-bottom: 2px solid  #dddddd;
 }
 
 .color {
