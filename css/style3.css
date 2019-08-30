@@ -37,6 +37,7 @@ p {
     background: #ffffff;
     box-sizing: border-box; 
     margin-bottom: 30px;
+    border: 2px solid #dddddd;
 }
 
 .container {

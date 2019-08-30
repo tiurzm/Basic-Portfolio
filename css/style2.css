@@ -26,6 +26,8 @@ input {
 button {
     background:#4aaaa5;
     padding: 10px 20px;
+    font-size: 15px;
+    color: #ffffff
 }
 
 .container {
@@ -41,11 +43,12 @@ button {
     background: #ffffff;
     box-sizing: border-box; 
     margin-bottom: 30px;
+    border: 2px solid  #dddddd;
 }
 
 .color {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4aaaa5;
+    color: #ffffff;
 }
 
 .left {
