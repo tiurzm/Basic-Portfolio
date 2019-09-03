@@ -10,7 +10,7 @@ body {
 ul {
     list-style-type: none;
     padding: 20px;
-    margin: 0 150px;
+    margin: 0; 
 }
 
 ul li {
@@ -40,12 +40,18 @@ p {
     border-bottom: 2px solid #dddddd;
 }
 
+.wrapper {
+    margin: 0 auto;
+    width: 1024px;
+
+}
+
 .container {
     width: 960px;
     height: 800px;
     margin: 0 auto;
     background: #ffffff;
-    padding: 20px;
+    padding: 30px;
     border: 2px solid #dddddd;
 }
 
@@ -59,7 +65,6 @@ p {
     background: #4aaaa5;
     color: #ffffff;
     padding: 0 15px;
-    margin-left: 210px;
 
 }
 .right {

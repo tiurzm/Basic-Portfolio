@@ -9,11 +9,11 @@ body {
 ul {
     list-style-type: none;
     padding: 20px;
-    margin: 0 150px;
+    margin: 0;
 }
 
 ul li {
-    display: inline-block; 
+    display: inline-block;
     margin-left: 10px;
     margin-right: 10px 
 }
@@ -24,13 +24,11 @@ img {
     margin-right: 20px;
     margin-top: 10px;
 }
-.container {
-    width: 960px;
+
+.wrapper {
     margin: 0 auto;
-    background: #ffffff;
-    height: 450px;
-    padding: 30px;
-    border: 2px solid #dddddd;
+    width: 1024px;
+
 }
 
 .navbar {
@@ -40,6 +38,17 @@ img {
     margin-bottom: 30px;
     border-bottom: 2px solid #dddddd;
 }
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    background: #ffffff;
+    height: 450px;
+    padding: 30px;
+    border: 2px solid #dddddd;
+}
+
+
 
 .color {
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -51,7 +60,6 @@ img {
     background: #4aaaa5;
     color: #ffffff;
     padding: 0 15px;
-    margin-left: 210px;
 
 }
 .right {
