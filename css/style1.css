@@ -28,7 +28,6 @@ img {
 .wrapper {
     margin: 0 auto;
     width: 1024px;
-
 }
 
 .navbar {
@@ -47,8 +46,6 @@ img {
     padding: 30px;
     border: 2px solid #dddddd;
 }
-
-
 
 .color {
     font-family: 'Georgia', Times, Times New Roman, serif;
