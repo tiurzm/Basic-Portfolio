@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+} 
+
+/* biar gak numpuk sesama box */
+
 body {
     padding: 0;
     margin: 0;
@@ -15,7 +21,7 @@ ul {
 ul li {
     display: inline-block;
     margin-left: 10px;
-    margin-right: 10px 
+    margin-right: 10px; 
 }
 
 img {
@@ -25,21 +31,22 @@ img {
     margin-top: 10px;
 }
 
-.wrapper {
-    margin: 0 auto;
-    width: 1024px;
-}
-
 .navbar {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    background: #ffffff;
     box-sizing: border-box; 
     margin-bottom: 30px;
+    background: #ffffff;
     border-bottom: 2px solid #dddddd;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
 }
 
 .container {
-    width: 960px;
+    box-sizing: border-box;
+    max-width: 960px;
     margin: 0 auto;
     background: #ffffff;
     height: 450px;
