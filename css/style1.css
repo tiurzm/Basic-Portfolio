@@ -1,9 +1,3 @@
-*{
-    box-sizing: border-box;
-} 
-
-/* biar gak numpuk sesama box */
-
 body {
     padding: 0;
     margin: 0;
