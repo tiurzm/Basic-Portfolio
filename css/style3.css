@@ -33,11 +33,12 @@ ul li a {
 p {
     color: #ffffff;
     background: #4aaaa5;
-    width: 250px;
+    max-width: 250px;
+    width: 100%;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
-    bottom: 5px;
+    bottom: 20px;
     padding: 5px;
     margin: 0;
     font-size: 20px;
@@ -92,59 +93,12 @@ p {
 .module {
     float: left;
     margin: 20px 40px 20px 0;
-    width: 250px;
-    height: 200px;
+    max-width: 250px;
     position: relative;
     
 }
 
-.lt {
-    background: 
-    linear-gradient(
-    rgba(255, 255, 255, 0.1),
-    rgba(255, 255, 255, 0.1)
-    ),url(../images/wd.png);
-    background-size: cover;
-    
-
-}
-
-.rt {
-    background: 
-    linear-gradient(
-    rgba(255, 255, 255, 0.1),
-    rgba(255, 255, 255, 0.1)
-    ), url(../images/stw.png);
-    background-size: cover;
-    
-}
-
-.lm {
-    background:
-    linear-gradient(
-    rgba(255, 255, 255, 0.1),
-    rgba(255, 255, 255, 0.1)
-    ), url(../images/technics-q-c-640-480-5.jpg);
-    background-size: cover;
-
-}
-
-.rm {
-    background: 
-    linear-gradient(
-    rgba(255, 255, 255, 0.1),
-    rgba(255, 255, 255, 0.1)
-    ), url(../images/technics-q-c-640-480-7.jpg);
-    background-size: cover;
-
-}
-
-.lb {
-    background: 
-    linear-gradient(
-    rgba(255, 255, 255, 0.1),
-    rgba(255, 255, 255, 0.1)
-    ), url(../images/technics-q-c-640-480-9.jpg);
-    background-size: cover;
-
+.module img {
+    width: 100%;
+    opacity: 0.9;
 }
