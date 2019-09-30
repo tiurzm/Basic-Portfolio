@@ -49,6 +49,7 @@ img {
     height: 450px;
     padding: 30px;
     border: 2px solid #dddddd;
+    text-align: justify;
 }
 
 .color {
